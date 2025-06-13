@@ -1,0 +1,48 @@
+.rv-sidebar {
+  width: var(--rv-sidebar-width, 220px);
+  min-width: var(--rv-sidebar-width, 220px);
+  background: var(--rv-sidebar-bg, #fff);
+  border-right: 1px solid var(--rv-border);
+  color: var(--rv-text);
+  height: calc(100vh - 56px);
+  margin-top: 56px;
+  padding: 24px 0;
+  position: sticky;
+  top: 56px;
+  box-shadow: var(--rv-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rv-sidebar-header {
+  font-size: 1.07rem;
+  font-weight: 600;
+  padding: 0 24px 8px 24px;
+  margin-bottom: 8px;
+  color: var(--rv-primary);
+  letter-spacing: 0.04em;
+}
+
+.rv-category-list {
+  list-style: none;
+  padding: 0 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rv-category-item {
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--rv-text-light);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.13s;
+}
+
+.rv-category-item.active, .rv-category-item:hover {
+  background: var(--rv-secondary);
+  color: var(--rv-primary);
+}

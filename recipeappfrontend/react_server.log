@@ -1,0 +1,832 @@
+
+> react-kavia@0.1.0 start
+> cross-env EDIT_MODE=true webpack serve --config .ve/webpack.config.js --mode development
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:3000/, http://[::1]:3000/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
+<i> [webpack-dev-server] Content not from webpack is served from './public' directory
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+asset bundle.js 1.39 MiB [emitted] (name: main)
+asset index.html 1.92 KiB [emitted]
+runtime modules 27.5 KiB 14 modules
+modules by path ./node_modules/ 1.24 MiB 31 modules
+modules by path ./src/ 10.2 KiB
+  modules by path ./src/*.css 7.49 KiB 4 modules
+  modules by path ./src/*.js 2.76 KiB
+    ./src/index.js 530 bytes [built] [code generated]
+    ./src/App.js 2.24 KiB [built] [code generated]
+modules by path ./.ve/ 15.1 KiB
+  modules by path ./.ve/*.js 10.6 KiB 2 modules
+  modules by path ./.ve/*.css 2.93 KiB
+    ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
+  ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 1604 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.39 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.6ae01d21034ecb41875b.hot-update.js 3.61 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.6ae01d21034ecb41875b.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.39 MiB = bundle.js 1.39 MiB main.6ae01d21034ecb41875b.hot-update.js 3.61 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+./src/App.js 816 bytes [built] [code generated]
+
+ERROR in ./src/App.js 3:0-43
+Module not found: Error: Can't resolve './components/Sidebar' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 4:0-41
+Module not found: Error: Can't resolve './components/Navbar' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 5:0-51
+Module not found: Error: Can't resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 146 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.4 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.bb91e87fe852212784f4.hot-update.js 6.7 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.bb91e87fe852212784f4.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.4 MiB = bundle.js 1.39 MiB main.bb91e87fe852212784f4.hot-update.js 6.7 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.37 KiB
+  ./src/App.js 816 bytes [code generated]
+  ./src/components/Sidebar.js 1.57 KiB [built] [code generated]
+
+ERROR in ./src/App.js 4:0-41
+Module not found: Error: Can't resolve './components/Navbar' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 5:0-51
+Module not found: Error: Can't resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 3:0-43 18:35-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 53 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.4 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.cc5668d8350093d9d018.hot-update.js 6.42 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.cc5668d8350093d9d018.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.4 MiB = bundle.js 1.4 MiB main.cc5668d8350093d9d018.hot-update.js 6.42 KiB
+cached modules 1.26 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.23 KiB
+  ./src/App.js 816 bytes [code generated]
+  ./src/components/Navbar.js 1.43 KiB [built] [code generated]
+
+ERROR in ./src/App.js 5:0-51
+Module not found: Error: Can't resolve './components/MainContent' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Navbar.js 2:0-22
+Module not found: Error: Can't resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 4:0-41 13:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 3:0-43 18:35-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 54 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.ac186905f79774f38ac5.hot-update.js 7.81 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.ac186905f79774f38ac5.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.ac186905f79774f38ac5.hot-update.js 7.81 KiB
+cached modules 1.26 MiB [cached] 43 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.3 KiB
+  ./src/App.js 816 bytes [code generated]
+  ./src/components/MainContent.js 1.51 KiB [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainContent.js 3:0-46
+Module not found: Error: Can't resolve './pages/RecipesPage' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainContent.js 4:0-44
+Module not found: Error: Can't resolve './pages/ManagePage' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainContent.js 5:0-42
+Module not found: Error: Can't resolve './pages/LoginPage' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Navbar.js 2:0-22
+Module not found: Error: Can't resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 4:0-41 13:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 3:0-43 18:35-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 6 errors in 45 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.ba40e8869a6e74c0315e.hot-update.js 6.92 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.ba40e8869a6e74c0315e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.ba40e8869a6e74c0315e.hot-update.js 6.92 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.08 KiB
+  ./src/components/MainContent.js 1.51 KiB [code generated]
+  ./src/components/pages/RecipesPage.js 592 bytes [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainContent.js 4:0-44
+Module not found: Error: Can't resolve './pages/ManagePage' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainContent.js 5:0-42
+Module not found: Error: Can't resolve './pages/LoginPage' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Navbar.js 2:0-22
+Module not found: Error: Can't resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 4:0-41 13:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 3:0-43 18:35-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 5 errors in 50 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.73d0588f6708d3497b13.hot-update.js 6.85 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.73d0588f6708d3497b13.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.73d0588f6708d3497b13.hot-update.js 6.85 KiB
+cached modules 1.27 MiB [cached] 45 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.08 KiB
+  ./src/components/MainContent.js 1.51 KiB [code generated]
+  ./src/components/pages/ManagePage.js 592 bytes [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainContent.js 5:0-42
+Module not found: Error: Can't resolve './pages/LoginPage' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Navbar.js 2:0-22
+Module not found: Error: Can't resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 4:0-41 13:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 3:0-43 18:35-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 4 errors in 39 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.2da83d48ec7b67471022.hot-update.js 6.75 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.2da83d48ec7b67471022.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.41 MiB main.2da83d48ec7b67471022.hot-update.js 6.75 KiB
+cached modules 1.27 MiB [cached] 46 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.06 KiB
+  ./src/components/MainContent.js 1.51 KiB [code generated]
+  ./src/components/pages/LoginPage.js 569 bytes [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Navbar.js 2:0-22
+Module not found: Error: Can't resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 4:0-41 13:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 3:0-43 18:35-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 39 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.42 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.0ba14de4e718593546dc.hot-update.js 7.25 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.0ba14de4e718593546dc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.42 MiB = bundle.js 1.41 MiB main.0ba14de4e718593546dc.hot-update.js 7.25 KiB
+cached modules 1.27 MiB [cached] 47 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 3.03 KiB
+  ./node_modules/css-loader/dist/cjs.js!./src/App.css 2.3 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./src/rv-theme.css 747 bytes [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Navbar.js 2:0-22
+Module not found: Error: Can't resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 4:0-41 13:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+ @ ./src/App.js 3:0-43 18:35-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 55 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.6f74357bc56d53e04806.hot-update.js 14.6 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.6f74357bc56d53e04806.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.42 MiB main.6f74357bc56d53e04806.hot-update.js 14.6 KiB
+cached modules 1.27 MiB [cached] 48 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 5.22 KiB
+  ./src/components/Sidebar.js 1.57 KiB [code generated]
+  ./src/components/Sidebar.css 2.26 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./src/components/Sidebar.css 1.39 KiB [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Navbar.js 2:0-22
+Module not found: Error: Can't resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+resolve './Navbar.css' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./src/components/Navbar.css)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/Navbar.css doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/Navbar.css.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/Navbar.css.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/Navbar.css doesn't exist
+ @ ./src/App.js 4:0-41 13:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 49 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.194c1e0abd299c9230ac.hot-update.js 14.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.194c1e0abd299c9230ac.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.43 MiB main.194c1e0abd299c9230ac.hot-update.js 14.4 KiB
+cached modules 1.27 MiB [cached] 50 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 5.09 KiB
+  ./src/components/Navbar.js 1.43 KiB [code generated]
+  ./src/components/Navbar.css 2.26 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./src/components/Navbar.css 1.4 KiB [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 38 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.7c8aa9afe56b4d5f75e5.hot-update.js 5.38 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.7c8aa9afe56b4d5f75e5.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.43 MiB main.7c8aa9afe56b4d5f75e5.hot-update.js 5.38 KiB
+cached modules 1.27 MiB [cached] 52 modules
+runtime modules 27.5 KiB 14 modules
+./node_modules/css-loader/dist/cjs.js!./src/App.css 2.7 KiB [built] [code generated]
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 35 ms
+assets by status 1.43 MiB [cached] 2 assets
+cached modules 1.28 MiB (javascript) 27.5 KiB (runtime) [cached] 67 modules
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/components/MainContent.js 2:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom is not a file
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.jsx doesn't exist
+        existing directory /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom)
+            using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom is not a file
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.js doesn't exist
+              .jsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom.jsx doesn't exist
+              as directory
+                existing directory /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom
+                  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom)
+                    using path: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/index
+                      using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router-dom/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/index doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/index.js doesn't exist
+                        .jsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/index.jsx doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 26 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.42a75afa61f8079861c0.hot-update.js 5.75 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.42a75afa61f8079861c0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.43 MiB main.42a75afa61f8079861c0.hot-update.js 5.75 KiB
+cached modules 1.28 MiB [cached] 52 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 1.88 KiB
+  ./src/components/MainContent.js 1.51 KiB [code generated]
+  ./node_modules/react-router-dom/dist/index.mjs 383 bytes [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+WARNING in ./src/components/MainContent.js 13:32-38
+export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 15:35-41
+export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 17:37-42
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 23:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 29:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./node_modules/react-router-dom/dist/index.mjs 13:0-66
+Module not found: Error: Can't resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/package.json (relative path: ./dist)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        existing directory /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router)
+            using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router/dom)
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/dom doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/components/MainContent.js 2:0-74 13:32-38 15:35-41 17:37-42 23:30-35 29:30-35
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./node_modules/react-router-dom/dist/index.mjs 14:0-29
+Module not found: Error: Can't resolve 'react-router' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+resolve 'react-router' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/package.json (relative path: ./dist)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router is not a file
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router.jsx doesn't exist
+        existing directory /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router)
+            using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router is not a file
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router.js doesn't exist
+              .jsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router.jsx doesn't exist
+              as directory
+                existing directory /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router
+                  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router)
+                    using path: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/index
+                      using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/index doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/index.js doesn't exist
+                        .jsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/index.jsx doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/components/MainContent.js 2:0-74 13:32-38 15:35-41 17:37-42 23:30-35 29:30-35
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors and 5 warnings in 41 ms
+assets by status 1.43 MiB [cached] 2 assets
+cached modules 1.28 MiB (javascript) 27.5 KiB (runtime) [cached] 68 modules
+
+WARNING in ./src/components/MainContent.js 13:32-38
+export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 15:35-41
+export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 17:37-42
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 23:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 29:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./node_modules/react-router-dom/dist/index.mjs 13:0-66
+Module not found: Error: Can't resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/package.json (relative path: ./dist)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        existing directory /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/package.json (relative path: .)
+            using exports field: ./dist/development/dom-export.mjs
+              using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/package.json (relative path: ./dist/development/dom-export.mjs)
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/dist/development/dom-export.mjs doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/components/MainContent.js 2:0-74 13:32-38 15:35-41 17:37-42 23:30-35 29:30-35
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./node_modules/react-router-dom/dist/index.mjs 14:0-29
+Module not found: Error: Can't resolve 'react-router' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+resolve 'react-router' in '/home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/package.json (relative path: ./dist)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/dist/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router-dom/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/package.json (relative path: ./node_modules/react-router)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router is not a file
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router.jsx doesn't exist
+        existing directory /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router
+          using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/package.json (relative path: .)
+            using exports field: ./dist/development/index.mjs
+              using description file: /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/package.json (relative path: ./dist/development/index.mjs)
+                no extension
+                  Field 'browser' doesn't contain a valid alias configuration
+                  /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/dist/development/index.mjs doesn't exist
+                .js
+                  Field 'browser' doesn't contain a valid alias configuration
+                  /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/dist/development/index.mjs.js doesn't exist
+                .jsx
+                  Field 'browser' doesn't contain a valid alias configuration
+                  /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/dist/development/index.mjs.jsx doesn't exist
+                as directory
+                  /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/recipeappfrontend/node_modules/react-router/dist/development/index.mjs doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-27952-a13e197b/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/components/MainContent.js 2:0-74 13:32-38 15:35-41 17:37-42 23:30-35 29:30-35
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors and 5 warnings in 31 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 2.31 MiB
+  asset bundle.js 1.87 MiB [emitted] (name: main)
+  asset main.04eca25216aaff78a3ae.hot-update.js 454 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.04eca25216aaff78a3ae.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 2.31 MiB = bundle.js 1.87 MiB main.04eca25216aaff78a3ae.hot-update.js 454 KiB
+cached modules 1.28 MiB [cached] 53 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 392 KiB
+  modules by path ./node_modules/react-router/ 385 KiB
+    ./node_modules/react-router/dist/development/dom-export.mjs 6.86 KiB [built] [code generated]
+    ./node_modules/react-router/dist/development/index.mjs 5.61 KiB [built] [code generated]
+    ./node_modules/react-router/dist/development/chunk-NL6KNZEE.mjs 365 KiB [built] [code generated]
+    ./node_modules/react-router/node_modules/cookie/dist/index.js 8.14 KiB [built] [code generated]
+  ./node_modules/react-router-dom/dist/index.mjs 383 bytes [code generated]
+  ./node_modules/set-cookie-parser/lib/set-cookie.js 6.47 KiB [built] [code generated]
+
+WARNING in ./src/components/MainContent.js 13:32-38
+export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 15:35-41
+export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 17:37-42
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 23:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 29:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 5 warnings in 306 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by path *.js 1.87 MiB
+  asset bundle.js 1.87 MiB [emitted] (name: main)
+  asset main.447322ff2cae073dce57.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 1.92 KiB [emitted]
+asset main.447322ff2cae073dce57.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.87 MiB = bundle.js 1.87 MiB main.447322ff2cae073dce57.hot-update.js 854 bytes
+cached modules 1.64 MiB [cached] 47 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 22.4 KiB
+  modules by path ./src/ 10.2 KiB
+    modules by path ./src/components/ 6.22 KiB
+      modules by path ./src/components/*.js 4.51 KiB 3 modules
+      modules by path ./src/components/pages/*.js 1.71 KiB 3 modules
+    modules by path ./src/*.js 1.31 KiB
+      ./src/index.js 530 bytes [built]
+      ./src/App.js 816 bytes [built]
+    ./node_modules/css-loader/dist/cjs.js!./src/App.css 2.7 KiB [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+
+WARNING in ./src/components/MainContent.js 13:32-38
+export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 15:35-41
+export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 17:37-42
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 23:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+WARNING in ./src/components/MainContent.js 29:30-35
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+ @ ./src/App.js 5:0-51 20:28-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 5 warnings in 221 ms

@@ -1,0 +1,54 @@
+.rv-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--rv-navbar-bg, #fff);
+  color: var(--rv-text);
+  border-bottom: 1px solid var(--rv-border);
+  padding: 0 32px;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 50;
+  box-shadow: var(--rv-shadow);
+}
+
+.rv-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--rv-primary);
+}
+
+.rv-logo-symbol {
+  font-size: 1.35em;
+  color: var(--rv-accent);
+}
+
+.rv-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.rv-nav-link {
+  color: var(--rv-text);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  font-size: 1.06rem;
+  opacity: 0.84;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+  transition: border 0.16s, color 0.12s;
+}
+
+.rv-nav-link.active, .rv-nav-link:hover {
+  color: var(--rv-primary);
+  border-bottom: 2px solid var(--rv-primary);
+  opacity: 1;
+}

@@ -1,0 +1,16 @@
+:root {
+  --rv-primary: #4caf50;
+  --rv-secondary: #ffc107;
+  --rv-accent: #ff5722;
+
+  --rv-bg: #f8f9fa;
+  --rv-sidebar-bg: #fff;
+  --rv-navbar-bg: #fff;
+  --rv-border: #e0e0e0;
+  --rv-text: #222;
+  --rv-text-light: #666;
+  --rv-radius: 12px;
+  --rv-shadow: 0 1px 4px rgba(44,62,80,0.03);
+
+  --rv-sidebar-width: 220px;
+}
